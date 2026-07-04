@@ -493,8 +493,6 @@ client.on('interactionCreate', async (interaction) => {
     await interaction.reply({ content: 'Your ticket has been created.', ephemeral: true });
 });
 
-client.login('YOUR_BOT_TOKEN_HERE');
-
 client.login(process.env.TOKEN);
 
 // ------------------------------
